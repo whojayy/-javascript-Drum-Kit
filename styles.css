@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  background-color: #283149;
+  background-image: url("./images/music-wallpaper-1024x768-wallpaper.jpg");
+}
+
+h1 {
+  font-size: 5rem;
+  color: #fec6c5;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #404B69;
+
+}
+
+footer {
+  color: #fec6c5;
+  font-family: sans-serif;
+}
+
+.w {
+  background: url("./images/tom1.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+}
+
+.a {
+  background: url("./images/tom2.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+}
+
+.s {
+  background: url("./images/tom3.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+}
+
+.d {
+  background: url("./images/tom4.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+}
+
+.j {
+  background: url("./images/snare.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+}
+
+.k {
+  background: url("./images/crash.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+}
+
+.l {
+  background: url("./images/kick.png") no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #c2e5df;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #fec6c5;
+  text-shadow: 3px 0 #c2e5df;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #c2e5df;
+}
+
+a:link {
+  color: #404B69;
+}
+
+/* visited link */
+a:visited {
+  color: #404B69;
+}
+
+/* mouse over link */
+a:hover {
+  color: whitesmoke;
+}
+
+/* selected link */
+a:active {
+  color: #404B69;
+}
+
+a{
+  font-family: 'Arvo', cursive;
+}
